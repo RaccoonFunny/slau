@@ -23,9 +23,16 @@ input {
     gap: 0;
 }
 
+form {
+  border: 2px red solid;
+  padding: 20px;
+  border-radius: 20px
+}
+
 .main {
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
