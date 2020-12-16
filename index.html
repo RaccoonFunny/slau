@@ -1,5 +1,49 @@
 <head>
-        <link href="master.css">
+        <style>
+                @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:wght@500&display=swap');
+
+* {
+    font-family: 'openSans' sans-serif;
+}
+
+div {
+    display: flex;
+    gap: 8px;
+}
+
+body {
+  background: orange;
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+.answer {
+    margin-top: 10px;
+    flex-direction: column;
+    gap: 0;
+}
+
+form {
+  border: 2px red solid;
+  padding: 20px;
+  border-radius: 20px
+}
+
+.main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error {
+    margin-top: 10px;
+    display: none;
+}
+        </style>
 </head>
 <body>
         <div class="main">
